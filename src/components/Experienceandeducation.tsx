@@ -9,7 +9,7 @@ export default function Experienceandeducation() {
         <div className="bg-black hover:bg-gray-900 px-4 text-white py-2 rounded-lg text-center">
           Experience & Education
         </div>
-        <h2 className="text-3xl md:text-5xl font-bold">
+        <h2 className="text-2xl md:text-5xl font-bold text-center">
           Experience & Education
         </h2>
         <p className="text-gray-600 text-center text-lg md:text-xl">
@@ -20,7 +20,7 @@ export default function Experienceandeducation() {
       <div className="w-full mt-6 flex flex-col gap-3">
         <h2 className="text-xl md:text-2xl font-bold">Experience</h2>
         <div>
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center">
             <div className="flex items-center gap-3">
               <div className="rounded-full w-10 h-10 border border-gray-300">
                 <Image
@@ -31,7 +31,7 @@ export default function Experienceandeducation() {
               </div>
               <div className="flex gap-3">
                 <h3 className="font-bold">JST GROUP</h3>
-                <h3>Internship</h3>
+                <h3 className="hidden sm:block">Internship</h3>
               </div>
             </div>
             <p className="text-gray-500">June 2020 - Aug 2020</p>
@@ -49,7 +49,7 @@ export default function Experienceandeducation() {
         <h2 className="text-xl md:text-2xl font-bold">Education</h2>
         <div>
           <div>
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-center">
               <div className="flex items-center gap-3">
                 <div className="rounded-full w-10 h-10 border border-gray-300">
                   <Image
@@ -63,7 +63,7 @@ export default function Experienceandeducation() {
               <p className="text-gray-500">Sep 2024 - Jan 2025</p>
             </div>
           </div>
-          <p className="text-gray-600 text-[16px] md:text-[18px]">
+          <p className="text-gray-600 text-[16px] md:text-[18px] mt-4 sm:mt-2">
             Completed a Full-Stack Development Bootcamp, covering key areas such
             as programming fundamentals, web development (HTML, CSS, JavaScript,
             React), and back-end technologies (Node.js, Express.js, databases).
@@ -75,7 +75,7 @@ export default function Experienceandeducation() {
         </div>
         <div>
           <div>
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-center">
               <div className="flex items-center gap-3">
                 <div className="rounded-full w-10 h-10 border border-gray-300">
                   <Image
@@ -86,15 +86,15 @@ export default function Experienceandeducation() {
                 </div>
                 <div className="flex gap-3">
                   <h3 className="font-bold">Thammasat University</h3>
-                  <h3>chemical engineering</h3>
+                  <h3 className="hidden sm:block">chemical engineering</h3>
                 </div>
               </div>
               <p className="text-gray-500">Aug 2018 - May 2022</p>
             </div>
           </div>
-          <p className="text-gray-600 text-[16px] md:text-[18px]">
-            Completed a Bachelor&lsquo;s Degree with Second-Class Honors in Chemical
-            Engineering
+          <p className="text-gray-600 text-[16px] md:text-[18px] mt-4 sm:mt-2">
+            Completed a Bachelor&lsquo;s Degree with Second-Class Honors in
+            Chemical Engineering
           </p>
         </div>
       </div>
