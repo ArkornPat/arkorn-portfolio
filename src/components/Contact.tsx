@@ -9,7 +9,7 @@ export default function Contact() {
       <p className="text-gray-600 text-center text-lg md:text-xl">
         Let&apos;s connect! Feel free to reach out {" "}
         <Link href="https://www.linkedin.com/in/arkornpat/" className="underline">via LinkedIn</Link>{" "}
-         or arkorn.pat@gmail.com and I&apos;ll get back to you as soon as I can.
+         or <Link href={"mailto:arkorn.pat@gmail.com"} className="underline">arkorn.pat@gmail.com</Link> and I&apos;ll get back to you as soon as I can.
       </p>
     </div>
   );
