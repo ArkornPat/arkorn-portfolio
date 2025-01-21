@@ -107,7 +107,7 @@ function NavItem({
 }: NavItemProps) {
   return (
     <div
-      className="flex cursor-pointer items-center justify-center rounded-full transition-all duration-300 ease-in-out"
+      className="flex cursor-pointer items-center justify-center rounded-full transition-all duration-300 ease-in-out hover:shadow-lg"
       style={{
         width: hoveredIndex === index ? "50px" : "40px",
         height: "50px",

@@ -17,8 +17,12 @@ export default function MyProject() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full mt-4">
         <Link href={"https://pet-sitter-two.vercel.app/"}>
           <div className="card bg-base-100 w-full max-w-[350px] flex flex-col justify-between min-h-[420px] shadow-xl border mx-auto">
-            <figure>
-              <Image src={petsitter} alt="project petsitter image" />
+          <figure className="overflow-hidden">
+              <Image
+                src={petsitter}
+                alt="project petsitter image"
+                className="hover:scale-110 transition-transform duration-300"
+              />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
@@ -44,8 +48,12 @@ export default function MyProject() {
         </Link>
         <Link href={"https://personal-blog-coral-seven.vercel.app/"}>
           <div className="card bg-base-100 w-full max-w-[350px] flex flex-col justify-between min-h-[420px] shadow-xl border mx-auto">
-            <figure>
-              <Image src={personal} alt="project personal blog image" />
+          <figure className="overflow-hidden">
+              <Image
+                src={personal}
+                alt="project personal blog image"
+                className="hover:scale-110 transition-transform duration-300"
+              />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
